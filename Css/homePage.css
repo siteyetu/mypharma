@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+:root {
+	--purple: #4d4dff;
+	--opaque-purple: rgba(77, 77, 255, 0.2);
+	--dark-blue: rgba(0, 0, 128, 0.67);
+	--burnt-blue: rgba(0, 0, 128, 0.8);
+	--dark-purple: #000080;
+	--white: #fff;
+	--black: #000;
+}
+
+html {
+	font-size: 10px;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	font-size: 1.6rem;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+	background-color: var(--white);
+	color: var(--black);
+	line-height: 1.5;
+	margin-top: 100px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: inherit;
+}
+
+.line {
+	width: 20px;
+	height: 3px;
+	margin: 5px 0;
+	background: #0a223d;
+	border-radius: 5px;
+}
+
+.hero__heading {
+	font-weight: 600;
+	font-size: 2.5rem;
+	line-height: 3;
+}
+
+.hero__tagline {
+	font-size: 1.8rem;
+	color: var(--dark-blue);
+}
+
+.heading {
+	color: var(--dark-purple);
+	font-weight: 500;
+	font-size: 2rem;
+}
+
+.bg-image__container {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 20.5rem;
+}
+
+.hero__image {
+	background-image: url('../Images/pharmacyImage1.jpg');
+}
+
+.about-image__container {
+	background-image: url('../Images/pharmacyImage1.jpg');
+}
+
+.bg-contact__section {
+	background-image: url('../Images/contact-bg.jpg');
+	min-height: 4.5rem;
+	background-size: cover;
+	box-shadow: inset 0px 0px 0 200rem rgba(0, 0, 128, 0.8);
+}
+
+.color-black {
+	color: var(--black);
+	background-color: var(--opaque-purple);
+}
+
+.card__heading {
+	color: var(--black);
+}
+
+.color-burnt-blue {
+	color: var(--burnt-blue);
+}
+
+.bg-opaque-purple {
+	background-color: var(--opaque-purple);
+}
+
+.bg-purple {
+	background-color: var(--purple);
+}
+
+.color-white {
+	color: var(--white);
+}
+
+.doctor__card img {
+	min-height: 25rem;
+}
+
+.btn {
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	background-color: var(--purple);
+	border: none;
+	outline: none;
+}
+
+input[type='text'] {
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+}
+
+.contact-info {
+	max-width: 43rem;
+}
+
+/* Footer section */
+.footer {
+	background: #000;
+	color: #fff;
+	font-size: 1.8rem;
+}
+
+.footer .footer-form input,
+.footer .footer-form button {
+	height: 40px;
+	border-radius: 5px;
+}
+
+.footer .footer-form input {
+	padding: 0 1rem;
+	background: none;
+	border: 1px solid #bce0fd;
+	width: 60%;
+	color: #fff;
+}
+
+.footer .footer-form button {
+	background: #4d4dff;
+	font-weight: 500;
+	font-size: 14px;
+	border: none;
+	color: #fff;
+	padding: 0 1.2rem;
+}
+
+.footer .company-services > div ul li {
+	margin-bottom: 10px;
+}
+
+.footer .social-icons-copyright {
+	background: #4d4dff;
+}
+
+@media screen and (min-width: 768px) {
+	.bg-image__container {
+		background-size: cover;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.heading {
+		font-size: 2.4rem;
+		line-height: 3;
+	}
+
+	.hero__heading {
+		font-size: 3.5rem;
+	}
+
+	.hero__tagline {
+		font-size: 1.8rem;
+		max-width: 50%;
+	}
+
+	.btn {
+		font-size: 1.8rem;
+	}
+
+	.bg-image__container {
+		height: 30.5rem;
+	}
+
+	.card__heading {
+		line-height: 1.2;
+	}
+}

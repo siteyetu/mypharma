@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+/* General styling */
+ul {
+  list-style: none
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #fff
+}
+
+body {
+ font-family: 'Poppins',
+ sans-serif;
+}
+
+/* Toggler */
+.line {
+  width: 20px;
+  height: 3px;
+  margin: 5px 0;
+  background: #0a223d;
+  border-radius: 5px
+}
+
+/* Navbar */
+.navbar {
+  font-size: 16px !important;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navbar .nav-item .nav-link img {
+  width: 17px
+}
+
+.navbar .nav-item .nav-link button {
+  background: #4D4DFF;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff
+}
+
+.navbar .nav-item .nav-link button:hover {
+  opacity: 0.8
+}
+
+/* Contact Showcase section */
+.showcase {
+  background:linear-gradient(0deg, rgba(77, 77, 255, 0.6), rgba(77, 77, 255, 0.6)),
+  url(../Images/contactshowcase.png) center center/cover;
+  height: 523px; 
+  color: #fff
+}
+
+.showcase > div {
+  margin-top:  281px
+}
+
+.showcase > div h1 {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+}
+
+.showcase > div p {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+/* Form and Info Section */
+.form-info h3 {
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 2rem
+}
+
+.form-info .form input,
+.form-info .form textarea {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 118.5%;
+  margin-bottom: 10px;
+  border: 1px solid #000
+}
+
+.form-info .form textarea {
+  height: 100px
+}
+
+.form-info button {
+  background: #4D4DFF;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 2rem;
+}
+
+.form-info button:hover {
+  opacity: 0.9
+}
+
+.form-info .info > div {
+  margin: 10px 0
+}
+
+/* Google Map section */
+#map {
+  width: 100%;
+  height: 300px
+}
+
+/* Footer section */
+.footer {
+  background: #000;
+  color: #fff;
+  font-size: 0.8rem
+}
+
+.footer .footer-form input,
+.footer .footer-form button {
+  height: 40px;
+  border-radius: 5px
+}
+
+.footer .footer-form input {
+  padding: 0 1rem;
+  background: none;
+  border: 1px solid #BCE0FD;
+  width: 60%;
+  color: #fff
+}
+
+.footer .footer-form button {
+  background: #4D4DFF;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  color: #fff;
+  padding: 0 1.2rem
+}
+
+.footer .company-services > div ul li {
+  margin-bottom: 10px
+}
+
+.footer .social-icons-copyright {
+  background: #4D4DFF
+}

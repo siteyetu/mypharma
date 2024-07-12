@@ -1,0 +1,1377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    background: #FFFFFF;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+/* Logo styling */
+.navbar {
+    z-index: 999;
+    background: #FFFFFF;
+    width: 100vw;
+}
+
+.navbar-brand {
+    position: relative;
+    outline: none;
+}
+
+.signup {
+    color: #4D4DFF;
+}
+
+.nav-item .btn {
+    background: #4D4DFF;
+}
+
+a {
+    text-decoration: none;
+    color: #000000
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.landing-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.max-width-set {
+    max-width: 1140px;
+}
+
+
+@media all and (max-width: 375px) {
+    /* Team */
+    .team {
+        top: 245px !important;
+    }
+
+    .team-images {
+        left: -1px;
+    }
+
+    #logo-text {
+        margin-left: 0 !important;
+        position: relative !important;
+        left: 70% !important;
+        transform: translateX(-50%) !important;
+    }
+}
+
+@media all and (max-width: 479px) {
+    /* Navbar */
+    .search {
+        display: none;
+    }
+
+    .landing-image p  {
+        position: absolute;
+        left: 150px !important;
+        top: 149px !important;
+    }
+
+    /* Description */
+    .desc {
+        position: relative;
+        top: 247px !important;
+        width: fit-content !important;
+    }
+
+    /* Team */
+    .team {
+        position: relative;
+        top: 278px !important;
+    }
+
+    .customer-images {
+        position: relative;
+        left: 6px !important;
+    }
+
+    .team-1 .img-desc {
+        height: 55px !important;
+        bottom: 0 !important;
+        
+    }
+
+    .team-1 .icons {
+        right: 35px !important;
+    }
+
+    /* Customers */
+    .customers .customer-desc {
+        position: absolute;
+        left: -4px !important;
+    }
+
+}
+
+@media all and (max-width: 575px) {
+    .team-1 .img-desc {
+        width: 366px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media all and (max-width: 599px) {
+    body {
+        font-weight: 500;
+        letter-spacing: 0.03em;
+    }
+    /* Navbar */
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 90px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .larger-line, .larger-icon {
+        display: none;
+    }
+    .logo-name {
+        position: absolute;
+        top: 66.95%;
+        left: 47.35%;
+        right: 1.24%;
+    }
+    .fa-bars {
+        color: #4D4DFF;
+    }
+
+    .nav-item img {
+        margin-left: -34px;
+    }
+
+    /* Landing-image */
+    .larger-landing-image {
+        display: none;
+    }
+    
+    .landing-image img{
+        width: 100vw;
+    }
+    .landing-image p  {
+        position: absolute;
+        width: 177px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        height: 219px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #000080;
+    }
+
+    /* Description */
+    .desc {
+        position: relative;
+        top: 323px;
+        height: 272px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    /* Team */
+    .team {
+        position: relative;
+        top: 295px;
+        background: rgba(77, 77, 255, 0.1);
+        width: 100vw;
+    }
+
+    .team p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+    }
+
+    .team-images {
+        padding-left: 8px;
+    }
+
+    .team-1 {
+        position: relative;
+        overflow: hidden !important;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 !important;
+    }
+
+    .team-1 .img-desc {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        background: #424141;
+    }
+
+    .img-desc p {
+        font-size: 12px;
+        line-height: 0;
+        color: #FFFFFF;
+    }
+
+    .img-desc .icons {
+        position: absolute;
+        top: 12px;
+        right: 10px;
+    }
+
+    .last-team-member {
+        margin-bottom: 40px;
+    }
+
+    /* Customers */
+    .customers {
+        position: relative;
+        top: 285px;
+    }
+
+    .customers p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+        margin-bottom: 0;
+    }
+
+    .customer-images {
+        position: relative;
+        top: 28px;
+        left: -10px;
+    }
+
+    .customer-1 img {
+        background-blend-mode: normal;
+    }
+
+    .customers .customer-desc {
+        position: absolute;
+        z-index: -1;
+        top: 83px;
+        height: 332px;
+        border: 3px solid rgba(77, 77, 255, 0.5);
+        box-sizing: border-box;
+        width: fit-content;
+    }
+
+    .customer-desc p {
+        position: relative;
+        top: 148.62px;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    .customer-det p {
+        position: relative;
+        top: 175px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        line-height: 0px;
+    }
+
+    #override-customer {
+        color: #4D4DFF;
+    }
+
+    /* Customer 2 */
+    .customer-2 {
+        position: relative;
+        top: 338px;
+    }
+
+    /* Customer 3 */
+    .customer-3 {
+        position: relative;
+        top: 684px;
+    }
+
+    /* Values */
+    .values {
+        position: relative;
+        top: 1280px;
+        background: rgba(0, 0, 128, 0.05);
+    }
+
+    .values p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+    }
+
+    .top-value {
+        margin-top: 38px;
+        margin-bottom: 8px;
+    }
+
+    .values-desc p {
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .values-desc {
+        color: #000000;
+        font-size: 16px;
+        width: 252px;
+    }
+
+    .value-1 img {
+        width: 282px;
+        height: 182px;
+    }
+
+    .bottom-value {
+        padding-bottom: 43px;
+    }
+
+    /* Footer */
+    .latestNews,
+    .footer_top {
+        position: relative;
+        top: 1280px;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 767px) {
+    body {
+        font-weight: 500;
+        letter-spacing: 0.03em;
+    }
+    /* Navbar */
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 90px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .smaller-line, 
+    .smaller-icon {
+        display: none;
+    }
+
+    .larger-icon {
+        position: absolute;
+        top: 66.95%;
+        left: 47.35%;
+        right: 1.24%;
+    }
+    .fa-bars {
+        color: #4D4DFF;
+    }
+
+    .nav-item img {
+        margin-left: -34px;
+    }
+
+    /* Landing-image */
+    .larger-landing-image {
+        display: none;
+    }
+
+    .landing-image img{
+        width: 100vw;
+    }
+    .landing-image p  {
+        position: absolute;
+        width: 220px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        height: 219px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        line-height: 34px;
+        color: #000080;
+    }
+
+    /* Description */
+    .desc {
+        position: relative;
+        top: 409px;
+        height: 272px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    /* Team */
+    .team {
+        position: relative;
+        top: 453px;
+        background: rgba(77, 77, 255, 0.1);
+        width: 100vw;
+    }
+
+    .team p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 26px;
+        line-height: 32px;
+        color: #4D4DFF;
+    }
+
+    .team-images {
+        padding-left: 8px;
+    }
+
+    .team-1 {
+        position: relative;
+        overflow: hidden;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0;
+    }
+
+    .senior {
+        padding-right: 10px;
+    }
+
+
+    .team .image-1{
+        height: 322px;
+    }
+
+    .team-1 .img-desc {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 70px;
+        background: #424141;
+    }
+
+    .img-desc p {
+        font-size: 18px;
+        line-height: 0;
+        color: #FFFFFF;
+    }
+
+    .img-desc .icons {
+        position: absolute;
+        top: 22px;
+        right: 10px;
+    }
+    /* Customers */
+    .customers {
+        position: relative;
+        top: 457px;
+    }
+
+    .customers p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+        margin-bottom: 0;
+    }
+
+    .customer-images {
+        position: relative;
+        top: 28px;
+        left: -10px;
+    }
+
+    .customer-1 img {
+        background-blend-mode: normal;
+    }
+
+    .customers .customer-desc {
+        position: absolute;
+        z-index: -1;
+        top: 83px;
+        height: 332px;
+        border: 3px solid rgba(77, 77, 255, 0.5);
+        box-sizing: border-box;
+        width: fit-content;
+    }
+
+    .customer-desc p {
+        position: relative;
+        top: 148.62px;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    .customer-det p {
+        position: relative;
+        top: 175px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        line-height: 0px;
+    }
+
+    #override-customer {
+        color: #4D4DFF;
+    }
+
+    /* Customer 2 */
+    .customer-2 {
+        position: relative;
+        top: 338px;
+    }
+
+    /* Customer 3 */
+    .customer-3 {
+        position: relative;
+        top: 684px;
+        padding-bottom: 53px;
+    }
+
+    /* Values */
+    .values {
+        position: relative;
+        top: 1442px;
+        background: rgba(0, 0, 128, 0.05);
+    }
+
+    .values p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+    }
+
+    .top-value {
+        margin-top: 38px;
+        margin-bottom: 8px;
+    }
+
+    .values-desc p {
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .values-desc {
+        color: #000000;
+        font-size: 16px;
+        width: 252px;
+    }
+
+    .value-1 img {
+        width: 282px;
+        height: 182px;
+    }
+
+    .bottom-value {
+        padding-bottom: 43px;
+    }
+    
+    /* Footer */
+    .latestNews,
+    .footer_top {
+        position: relative;
+        top: 1442px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 959px) {
+    body {
+        font-weight: 500;
+        letter-spacing: 0.03em;
+        font-family: 'Poppins', sans-serif;
+    }
+    /* Navbar */
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 78px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    /* Inherited styles from drugDetail */
+    .navbar-expand-md .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+
+    .navbar-nav {
+        background: #FFFFFF !important;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: auto !important;
+    }
+
+    .navbar-collapse {
+        flex-grow: 1;
+        align-items: center;
+    }
+
+    .smaller-line, 
+    .smaller-icon {
+        display: none;
+    }
+
+    .larger-icon {
+        position: absolute;
+        top: 62.95%;
+        left: 47.35%;
+        right: 1.24%;
+    }
+
+    .signup,
+    .search {
+        margin-top: 10px;
+    }
+
+
+    /* Landing-image */
+    .smaller-landing-image {
+        display: none;
+    }
+
+    .landing-image img{
+        width: 100vw;
+        height: 300px;
+    }
+
+    .landing-image p  {
+        position: absolute;
+        width: 266px;
+        height: 30px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        line-height: 30px;
+        color: #000080;
+    }
+
+    /* Description */
+    .desc {
+        position: relative;
+        top: 350px;
+        height: 272px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .desc p {
+        font-size: 20px;
+    }
+
+    /* Team */
+    .team {
+        position: relative;
+        top: 350px;
+        background: rgba(77, 77, 255, 0.1);
+        width: 100vw;
+    }
+
+    .team p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+    }
+
+    .team-1 {
+        position: relative;
+        width: 340px !important;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 !important;
+    }
+
+    .team-1:first-child {
+        height: 210px;
+    }
+
+    .team-1 .image-1 {
+        height: 210px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .team-1 .img-desc {
+        position: absolute;
+        top: 160px;
+        left: 0;
+        right: 0;
+        height: 50px;
+        background: #424141;
+    }
+
+    .img-desc p {
+        font-size: 14px;
+        line-height: 0;
+        color: #FFFFFF;
+    }
+
+    .img-desc .icons {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    /* Customers */
+    .customers {
+        position: relative;
+        top: 396px;
+    }
+
+    .customers p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+        margin-bottom: 0;
+    }
+
+    .customer-images {
+        position: relative;
+        top: 28px;
+        left: 0px;
+        padding-bottom: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .customer-1 {
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        width: 366px;
+    }
+    .customer-1 img {
+        background-blend-mode: normal;
+        width: 170px;
+    }
+
+    .customers .customer-desc {
+        position: absolute;
+        z-index: -1;
+        top: 83px;
+        height: 332px;
+        border: 3px solid rgba(77, 77, 255, 0.5);
+        box-sizing: border-box;
+    }
+
+    .customer-desc p {
+        position: relative;
+        top: 108.62px;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    .customer-det p {
+        position: relative;
+        top: 145px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        line-height: 0px;
+    }
+
+    #override-customer {
+        color: #4D4DFF;
+    }
+
+    .customer-3 {
+        top: 290px;
+    }
+
+    /* Values */
+    .values {
+        position: relative;
+        top: 958px;
+        background: rgba(0, 0, 128, 0.05);
+    }
+
+    .values p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+    }
+
+    .top-value {
+        margin-top: 38px;
+        margin-bottom: 8px;
+    }
+
+    .values-desc p {
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .values-desc {
+        color: #000000;
+        font-size: 16px;
+        width: 252px;
+    }
+
+    .value-1 img {
+        width: 282px;
+        height: 182px;
+    }
+
+    .bottom-value {
+        padding-bottom: 43px;
+    }
+
+    /* Footer */
+    .latestNews,
+    .footer_top {
+        position: relative;
+        top: 958px;
+    }
+}
+
+@media all and (min-width: 960px) and (max-width: 1199px) {
+    body {
+        font-weight: 500;
+        letter-spacing: 0.03em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    /* Navbar */
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 118px;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    /* Inherited styles from drugDetail */
+    .navbar-expand-md .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+
+    .navbar-nav {
+        background: #FFFFFF !important;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: auto !important;
+    }
+
+    .navbar-collapse {
+        flex-grow: 1;
+        align-items: center;
+    }
+
+    .smaller-line, 
+    .smaller-icon {
+        display: none;
+    }
+
+    .larger-icon {
+        position: absolute;
+        top: 62.95%;
+        left: 47.35%;
+        right: 1.24%;
+    }
+
+    .login,
+    .signup,
+    .search {
+       margin-top: 9px !important;
+    }
+
+
+    /* Landing-image */
+    .smaller-landing-image {
+        display: none;
+    }
+
+    .landing-image img{
+        width: 100vw;
+        height: 317px;
+    }
+
+    .landing-image p  {
+        position: absolute;
+        width: 266px;
+        height: 30px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        line-height: 30px;
+        color: #000080;
+    }
+
+    /* Description */
+    .desc {
+        position: relative;
+        top: 370px;
+        height: 272px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .desc p {
+        font-size: 22px;
+    }
+
+    /* Team */
+    .team {
+        position: relative;
+        top: 370px;
+        background: rgba(77, 77, 255, 0.1);
+        width: 100vw;
+    }
+
+    .team p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+    }
+
+    .team-1 {
+        position: relative;
+        width: 340px !important;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 !important;
+    }
+
+    .team-1:first-child {
+        height: 290px;
+    }
+
+    .team-1 .image-1 {
+        height: 290px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .team-1 .img-desc {
+        position: absolute;
+        top: 240px;
+        left: 0;
+        right: 0;
+        height: 50px;
+        background: #424141;
+    }
+
+    .img-desc p {
+        font-size: 14px;
+        line-height: 0;
+        color: #FFFFFF;
+    }
+
+    .img-desc .icons {
+        position: absolute;
+        top: 17px;
+        right: 18px;
+    }
+
+    /* Customers */
+    .customers {
+        position: relative;
+        top: 396px;
+    }
+
+    .customers p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+        margin-bottom: 0;
+    }
+
+    .customer-images {
+        position: relative;
+        top: 28px;
+        left: 0px;
+        padding-bottom: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .customer-1 {
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        width: 366px;
+    }
+    .customer-1 img {
+        background-blend-mode: normal;
+        width: 170px;
+    }
+
+    .customers .customer-desc {
+        position: absolute;
+        z-index: -1;
+        top: 83px;
+        height: 332px;
+        border: 3px solid rgba(77, 77, 255, 0.5);
+        box-sizing: border-box;
+    }
+
+    .customer-desc p {
+        position: relative;
+        top: 108.62px;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    .customer-det p {
+        position: relative;
+        top: 145px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        line-height: 0px;
+    }
+
+    #override-customer {
+        color: #4D4DFF;
+    }
+
+    .customer-3 {
+        top: 290px;
+    }
+
+    /* Values */
+    .values {
+        position: relative;
+        top: 958px;
+        background: rgba(0, 0, 128, 0.05);
+    }
+
+    .values p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+    }
+
+    .top-value {
+        margin-top: 38px;
+        margin-bottom: 8px;
+    }
+
+    .values-desc p {
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .values-desc {
+        color: #000000;
+        font-size: 16px;
+        width: 252px;
+    }
+
+    .value-1 img {
+        width: 282px;
+        height: 182px;
+    }
+
+    .bottom-value {
+        padding-bottom: 43px;
+    }
+    /* Footer */
+    .latestNews,
+    .footer_top {
+        position: relative;
+        top: 958px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    body {
+        font-weight: 500;
+        letter-spacing: 0.03em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    /* Navbar */
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 118px;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+    /* Inherited styles from drugDetail */
+    .navbar-expand-md .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+
+    .navbar-nav {
+        background: #FFFFFF !important;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: auto !important;
+    }
+
+    .navbar-collapse {
+        flex-grow: 1;
+        align-items: center;
+    }
+
+    .smaller-line, 
+    .smaller-icon {
+        display: none;
+    }
+
+    .larger-icon {
+        position: absolute;
+        top: 55.95%;
+        left: 47.35%;
+        right: 1.24%;
+    }
+
+    .signup, .login,
+    .search {
+        margin-top: 9px;
+    }
+
+
+    /* Landing-image */
+    .smaller-landing-image {
+        display: none;
+    }
+
+    .landing-image img{
+        width: 100vw;
+        height: 317px;
+    }
+
+    .landing-image p  {
+        position: absolute;
+        width: 266px;
+        height: 30px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        line-height: 30px;
+        color: #000080;
+    }
+
+    /* Description */
+    .desc {
+        position: relative;
+        top: 370px;
+        height: 272px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .desc p {
+        font-size: 26px;
+    }
+
+    /* Team */
+    .team {
+        position: relative;
+        top: 370px;
+        background: rgba(77, 77, 255, 0.1);
+        width: 100vw;
+    }
+
+    .team p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+    }
+
+    .team-images {
+        padding-left: 8px;
+    }
+
+    .team-1 {
+        position: relative;
+        overflow: hidden !important;
+        width: 366px !important;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 !important;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .team-1:first-child {
+        height: 322px;
+    }
+
+    .team-1 .image-1 {
+        height: 322px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .team-1 .img-desc {
+        position: absolute;
+        top: 260px;
+        left: 0;
+        right: 0;
+        height: 70px;
+        background: #424141;
+    }
+
+    .img-desc p {
+        font-size: 16px;
+        line-height: 0;
+        color: #FFFFFF;
+    }
+
+    .img-desc .icons {
+        position: absolute;
+        top: 22px;
+        right: 24px;
+    }
+
+    /* Customers */
+    .customers {
+        position: relative;
+        top: 366px;
+    }
+
+    .customers p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+        margin-bottom: 0;
+    }
+
+    .customer-images {
+        position: relative;
+        top: 28px;
+        left: 0px;
+        padding-bottom: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .customer-1 {
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        width: 366px;
+    }
+    .customer-1 img {
+        background-blend-mode: normal;
+        width: 170px;
+    }
+
+    .customers .customer-desc {
+        position: absolute;
+        z-index: -1;
+        top: 83px;
+        height: 332px;
+        border: 3px solid rgba(77, 77, 255, 0.5);
+        box-sizing: border-box;
+    }
+
+    .customer-desc p {
+        position: relative;
+        top: 108.62px;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    .customer-det p {
+        position: relative;
+        top: 145px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        line-height: 0px;
+    }
+
+    #override-customer {
+        color: #4D4DFF;
+    }
+
+    /* Values */
+    .values {
+        position: relative;
+        top: 678px;
+        background: rgba(0, 0, 128, 0.05);
+    }
+
+    .values p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: #4D4DFF;
+    }
+
+    .top-value {
+        margin-top: 38px;
+        margin-bottom: 8px;
+    }
+
+    .values-desc p {
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .values-desc {
+        color: #000000;
+        font-size: 16px;
+        width: 252px;
+    }
+
+    .value-1 img {
+        width: 282px;
+        height: 182px;
+    }
+
+    .bottom-value {
+        padding-bottom: 43px;
+    }
+
+    /* Footer */
+    .latestNews,
+    .footer_top {
+        position: relative;
+        top: 678px;
+    }
+}

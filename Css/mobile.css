@@ -1,0 +1,57 @@
+/* Navbar */
+.navbar .navbar-brand img {
+  width: 100px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link,
+.navbar .nav-item .nav-link button {
+  font-size: 0.8rem
+}
+
+/* Showcase */
+.showcase {
+  height: 148px;
+  justify-content: center;
+}
+
+.showcase>div {
+  margin-top: 0
+}
+
+.showcase>div h1 {
+  font-size: 24.8626px;
+  line-height: 1rem;
+}
+
+.showcase>div p {
+  font-size: 10.6554px;
+  line-height: 16px;
+}
+
+/* Form and Info section */
+.form-info h3 {
+  font-size: 13.8241px;
+  margin-bottom: 1rem
+}
+
+.form-info .form input,
+.form-info .form textarea {
+  font-size: 8px;
+  padding: 0.4rem 0.7rem;
+}
+
+.form-info .info {
+  margin-top: 3rem
+}
+
+.form-info button {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 9.21607px;
+}
+
+.form-info .info > div {
+  font-size: 0.8rem;
+}
+
+

@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif !important;
+}
+header{
+    height: 90px;
+    
+}
+nav{
+    background: #ffffff !important;
+   
+}
+nav li a{
+    font-family: 'Poppins' !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 27px !important;
+    color: #000000 !important;
+}
+nav .blue{
+    color: #4D4DFF !important;
+}
+nav .blue:hover{
+    color: #000000 !important;
+}
+nav .btn-login{
+    background: #4D4DFF;
+    color: #ffffff !important;
+    border-radius: 5px;
+}
+nav .btn-login:hover{
+    background: #000000;
+    color: #ffffff !important;
+}
+nav .nav-icon{
+    color: #408000 !important;
+}
+
+/* Carousel */
+#carousel-drug p{
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+#carousel-drug #carousel-bold-text{
+    font-weight: bolder;
+    font-size: 26px;
+    line-height: 20px;
+    color: #000000;
+}
+/* Drug Description */
+.drug-desc-info p,
+.drug-desc-blockquote footer p{
+    font-size: 16px;
+    line-height: 20px;
+}
+.drug-desc-blockquote .green{
+    color: #408000 !important;
+    font-weight: bold;
+}
+#drug-description img{
+    width: 70%;
+}
+
+.view img{
+    height: 60% !important;
+}
+/* Visit */
+#visit{
+    background: url(/Images/injection.jpeg) center center/cover no-repeat;
+    height: 420px;
+    
+}
+#visit-desc h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000080;
+}
+#visit-nav li{
+    list-style-type: none;
+}
+.visit-info{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    color: #000000 !important;
+}
+.visit-link li{
+    width: 100px;
+    
+}
+.visit-link .green{
+    background: #408000;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Latest */
+#latestNews{
+    height: 420px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 212.3%;
+}
+#latestNews a{
+    color: #ffffff !important;
+}
+#latestNewsNumber{
+    margin-top: 80px ;
+}
+.form-group a{
+    background: #4D4DFF !important;
+}
+.newsNav-active{
+    color:  #4D4DFF;
+}
+/* Footer */
+#footer{
+    height: 100px;
+    background: #4D4DFF;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: bold;
+}
+#footer a{
+    color: #ffffff !important;
+}
+@media screen and (max-width:1024px){
+    #collapseDrug li{
+        margin-right: 3px !important;
+    }
+    .pharm-desc{
+        text-align: center;
+    }
+}
+@media screen and (max-width:892px){
+    #collapseDrug ul{
+        margin-left: none !important;
+    }
+    nav{
+        width: 100%;
+    }
+    #drug-description img{
+        width: 100%;
+    }
+    nav li a{
+        font-weight: bold !important;
+        font-size: 10px !important;
+    }
+    .form-group a,
+    .form-group input{
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+    .form-group{
+        display: block !important;
+    }
+    #latestNews .form-group{
+        margin-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    #latestNews{
+        height: 630px;
+    }
+}
+@media screen and (max-width:767px){
+    nav{
+        width: 100%;
+    }
+    nav .header-nav{
+        display: block !important;
+        text-align: center;
+    }
+    nav li{
+        margin-bottom: 10px !important;
+    }
+    nav li a{
+        font-weight: bold !important;
+        font-size: 15px !important;
+        line-height: 12px !important;
+    }
+    nav .btn-login{
+        width: 250px !important;
+        margin: auto;
+    }
+    #drug-description img{
+        width: 100%;
+    }
+    .pharmed p{
+        margin-bottom: 80px !important;
+    }
+    /* Latest */
+    #latestNews{
+        height: 860px;
+    }
+    #latestNews .form-group{
+        margin-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    #latestContact{
+        margin-bottom: 50px !important;
+    }
+    #latestNews a{
+        color: #ffffff !important;
+    }
+    #latestNewsNumber{
+        margin-top: 80px ;
+    }
+    .latest-p p{
+        padding-top: 5px !important;
+        margin-top: 5px !important;
+    }
+    .newsNav{
+        text-align: center !important;
+
+    }
+    #carousel-drug{
+        margin-top: 110px;
+    }
+    
+}
+@media screen and (max-width:425px){
+    #carousel-drug{
+        margin-top: 100px;
+    }
+    #carousel-drug p{
+        text-align: center;
+        font-size: 15px;
+    }
+     /* Latest */
+     #latestNews{
+        height: 1200px;
+    }
+    #latestNews .form-group{
+        margin-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .latestContact{
+        margin-bottom: 20px !important;
+        text-align: center !important;
+    }
+    #latestNews a{
+        color: #ffffff !important;
+    }
+    #latestNewsNumber{
+        margin-top: 80px ;
+    }
+    .latest-p p{
+        padding-top: 5px !important;
+        margin-top: 5px !important;
+    }
+    .drug-desc-blockquote {
+        text-align: center !important;
+    }
+    #carousel-drug #carousel-bold-text{
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 30px;
+        color: #000000;
+    }
+   
+}
+@media screen and (max-width:375px){
+    #visit{
+        height: 460px;
+    }
+}
+@media screen and (max-width:320px){
+    #visit{
+        height: 550px !important;
+        text-align: center;
+        font-size: 12px !important;
+    }
+    
+}
